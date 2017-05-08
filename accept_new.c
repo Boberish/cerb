@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   accept_new.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sjones <sjones@student.42.us.org>          +#+  +:+       +#+        */
+/*   By: jaylor <sjones@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/05/07 21:15:16 by sjones            #+#    #+#             */
-/*   Updated: 2017/05/07 21:17:24 by sjones           ###   ########.fr       */
+/*   Created: 2017/05/07 21:15:16 by jaylor            #+#    #+#             */
+/*   Updated: 2017/05/07 21:17:24 by jaylor           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	accept_new(t_prox *pr)
 
 void	error(char *msg)
 {
-	printf("ERRORIZING THE COUNTRYSIDE");
+	printf("Fatal errror");
 	perror(msg);
 	exit(0);
 }
